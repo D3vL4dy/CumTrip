@@ -18,7 +18,7 @@ public class FPhoto extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)throws ServletException, IOException {
 		request.setCharacterEncoding("utf-8");
 		String filename = request.getParameter("filename");
-		String dowloadPath = "d:/연습용산출물/traveler/space/";
+		String dowloadPath = "d:/연습용산출물/traveler/restaurant/";
 		String filePath = dowloadPath + File.separator+filename;
 		
 		File file = new File(filePath);
